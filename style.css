@@ -1,0 +1,974 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./font/gs_bold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(./font/gs.ttf);
+}
+
+#main {}
+
+#page1 {
+    width: 100vw;
+    height: 90vh;
+    background-color: #f15d58;
+    background-image: url(./Imges/bgd_pattern.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+#page1 #nav {
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    border-width: 150px;
+
+}
+
+#nav #n1 img {
+    height: 50px;
+ 
+
+}
+
+
+#nav #n2 {
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+    font-family: "regular";
+    position: relative;
+    /* position: absolute; */
+    /* border-bottom: 1px solid black; */
+}
+
+
+#nav #n2 h3:hover {
+    border-radius: 50px;
+    background-color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+
+hr {
+    width: 67%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#nav #n2 img {
+    padding: 10px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    position: absolute;
+    left: -60px;
+    /* margin-top: -9px; */
+    /* margin-right: -50px; */
+
+}
+
+#nav #n2 h3 {
+    font-weight: 500;
+    font-size: 17.2px;
+    opacity: .7;
+    /* width: 60px; */
+    position: relative;
+    padding: 10px;
+}
+
+#page1 #cimg {
+    height: 430px;
+    left: 40vw;
+    top: -4.9vw;
+    position: relative;
+    z-index: 9999;
+
+
+}
+
+#page1 #cimg-armsl {
+    position: relative;
+    left: 25.8vw;
+    top: -12.2vw;
+    z-index: 9999;
+
+}
+
+#page1 #cimg-armsr {
+    position: relative;
+    top: -6.9vw;
+    left: 31vw;
+    /* z-index: -9; */
+
+}
+
+#page1 #text {
+    position: relative;
+    /* position: absolute; */
+    top: -22vw;
+    left: 18vw;
+    /* background-color: aqua; */
+    width: 30vw;
+
+}
+
+#page1 #text h1 {
+    position: relative;
+    font-size: 85px;
+    font-family: bold;
+
+    color: #363635;
+
+}
+
+#page1 #text p {
+    color: #dcddcd;
+    width: 21vw;
+    font-family: regular;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 500;
+
+}
+
+#page1 #text h2 {
+    color: #dcddcd;
+    font-family: regular;
+    font-size: 20px;
+    margin-top: 13px;
+    font-weight: 500;
+}
+
+#page1 #text img {
+    position: relative;
+    left: 4.4vw;
+    top: .2vw;
+}
+
+#page1 #right-images {
+    position: relative;
+    top: -40vw;
+    left: 70vw;
+    /* background-color: #dcddcd; */
+
+
+
+}
+
+#page1 #right-images #googimg {
+    position: relative;
+    left: -13.2vw;
+    top: 5.5vw;
+}
+
+#page1 #right-images #slice {
+    position: relative;
+    left: -23.5vw;
+    top: 6.8vw;
+    z-index: 99999;
+}
+
+#page1 #right-images #slice1 {
+    position: relative;
+    left: -21.9vw;
+    top: 1.8vw;
+}
+
+#page1 #right-images #twiter {
+    position: relative;
+    left: -28.8vw;
+    top: 10.8vw;
+}
+
+#page1 #btm-images {
+    position: relative;
+    width: 100%;
+    top: -25vw;
+    /* background-color: aqua; */
+}
+
+#page1 #btm-images #one {
+    position: relative;
+    left: 11vw;
+    top: 1vw;
+    position: absolute;
+}
+
+#page1 #btm-images #two {
+    position: relative;
+    left: 65vw;
+    top: -3vw;
+    position: absolute;
+}
+
+#page1 #btm-images #third {
+    position: relative;
+    left: 32vw;
+    position: absolute;
+    top: 4vw;
+}
+
+#page1 #btm-images #four {
+    position: relative;
+    left: 0vw;
+    top: 5vw;
+}
+
+#page1 #btm-images #six {
+    position: relative;
+    position: absolute;
+    left: 50vw;
+    top: 3vw;
+}
+
+#page1 #btm-images #five {
+    position: relative;
+    left: 53vw;
+    /* width: 100%; */
+    top: 0vw;
+}
+
+
+#page2 {
+    width: 100vw;
+    height: 120vh;
+    background-color: #dcddcd;
+}
+
+#page2 #top-images {
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    height: 45vh;
+}
+
+#page2 #top-images #first {
+    position: relative;
+    left: 6vw;
+    top: -8vw;
+
+}
+
+#page2 #top-images #second {
+    position: relative;
+    left: 9vw;
+    top: -8vw;
+
+}
+
+#page2 #top-images #three {
+    position: relative;
+    left: 13vw;
+    top: -5vw;
+
+}
+
+#page2 #top-images #fourth {
+    position: relative;
+    left: -5vw;
+    top: -3vw;
+
+
+}
+
+#page2 #top-images #fifth {
+    position: relative;
+    left: 3vw;
+    top: -2vw;
+    z-index: 999999;
+
+}
+
+#page2 #top-images #sixth {
+    position: relative;
+    left: 1vw;
+    top: -5vw;
+
+
+}
+
+#page2 #top-images #seventh {
+    position: relative;
+    left: 1.2vw;
+    top: -5vw;
+
+}
+
+#page2 #top-images #eighth {
+    position: relative;
+    left: -8vw;
+    top: 1vw;
+    z-index: 99999;
+
+}
+
+#page2 #top-images #ninth {
+    position: relative;
+    left: 70vw;
+    top: -14vw;
+
+}
+
+#page2 #top-images #tenth {
+    position: relative;
+    left: 72vw;
+    top: -10vw;
+
+}
+
+#page2 #nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: -9vw;
+}
+
+#page2 hr {
+    top: 2.5vw;
+}
+
+#page2 #btm {
+    position: relative;
+    width: 66vw;
+    height: 57vh;
+    /* background-color: aqua; */
+    top: 7vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* left: 15vw; */
+}
+
+#page2 #btm #btry {
+    position: relative;
+    top: 2vw;
+    left: 0;
+}
+
+#page2 #btm #android {
+    position: relative;
+    top: 7vw;
+    left: -9.7vw;
+}
+
+#page2 #btm #download {
+    position: relative;
+    top: 9.8vw;
+    left: -18vw;
+}
+
+
+
+#page2 #btm #tvscreen {
+    position: relative;
+    position: absolute;
+    top: -1vw;
+    left: 14vw;
+    z-index: 999999;
+}
+
+#page2 #btm #power {
+    position: relative;
+    position: absolute;
+    top: 1.7vw;
+    left: 16vw;
+    z-index: 99999999;
+}
+
+#page2 #btm #descrip {
+    position: relative;
+    position: absolute;
+    top: 18.7vw;
+    left: 11.2vw;
+    /* z-index: 99999; */
+}
+
+#page2 #btm #b {
+    position: relative;
+    position: absolute;
+    left: 24vw;
+    top: -2vw;
+}
+
+#page2 #btm #baloonctr {
+    position: relative;
+    position: absolute;
+    top: -7.5vw;
+    /* left: vw; */
+    margin-left: 2.3vw;
+    /* z-index: 99999; */
+}
+
+#page2 #btm #baloonlft {
+    position: relative;
+    position: absolute;
+    top: -5.4vw;
+    /* left: 1vw; */
+    rotate: -34deg;
+    /* left: 24.5vw; */
+    /* margin-left: -.1vw; */
+    /* z-index: 99999; */
+}
+
+#page2 #btm #baloonright {
+    position: relative;
+    position: absolute;
+    top: -4.5vw;
+    /* left: 1vw; */
+    rotate: 30deg;
+    margin-left: 5.2vw;
+    /* z-index: 99999; */
+}
+
+#page2 #btm #badge {
+    position: relative;
+    position: absolute;
+    top: -3.5vw;
+    z-index: 999999999;
+    margin-left: 16.8vw;
+
+}
+
+#page2 #txt {
+    width: 21vw;
+    /* background-color: #f15d58; */
+    height: 56vh;
+    position: relative;
+    left: 48.5vw;
+    top: -13vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#page2 h2 {
+    font-family: bold;
+    position: relative;
+    font-size: 28px;
+    left: -2vw;
+    margin-top: -15px;
+    text-align: center;
+}
+
+#page2 #txt .elem {
+    width: 100%;
+    height: 100px;
+    /* background-color: rgba(0, 0, 0, 0.33); */
+    font-family: bold;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: -22px;
+
+
+}
+
+#page2 #txt .elem img {
+    position: relative;
+    position: absolute;
+    left: .5vw;
+    margin-top: .3vw;
+    /* top: 1vw; */
+}
+
+#page2 #txt .elem h3 {
+    width: 16vw;
+    font-size: 17px;
+
+    /* position: relative; */
+
+
+}
+
+#page2 #txt .elem h3 span {
+    position: relative;
+    top: 1.9vw;
+    left: -2.7vw;
+    opacity: .6;
+
+}
+
+#page2 #txt .elem h3 #s {
+    position: relative;
+    top: 1.9vw;
+    left: -9vw;
+    opacity: .6;
+
+}
+
+#page2 #txt .elem h3 #f {
+    position: relative;
+    top: 1.9vw;
+    left: -7vw;
+    opacity: .6;
+
+}
+
+#page2 h1 {
+    font-size: 18px;
+    font-family: regular;
+    position: relative;
+    left: 2.4vw;
+    color: #83bf17;
+}
+
+#page3 {
+    width: 100vw;
+    height: 120vh;
+    background-color: #a68f58;
+    background-image: url(./Imges/bgd_pattern3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page3 #top-img {
+    width: 100%;
+    height: 450px;
+    /* background-color: #83bf17; */
+    position: relative;
+}
+
+#top-img #one {
+    position: relative;
+    width: 100%;
+    top: -6vw;
+    left: 0vw;
+}
+
+#top-img #two {
+    position: absolute;
+    position: relative;
+    left: 20vw;
+    top: -10vw;
+
+}
+
+#top-img #three {
+    position: absolute;
+    position: relative;
+    left: 25vw;
+    top: -10vw;
+}
+
+#top-img #four {
+    position: absolute;
+    position: relative;
+    left: 35vw;
+    top: -12vw;
+}
+
+#top-img #five {
+    position: absolute;
+    position: relative;
+    left: 43vw;
+    top: -10vw;
+}
+
+#top-img #six {
+    position: absolute;
+    position: relative;
+    left: 46.7vw;
+    top: -19.9vw;
+}
+
+#top-img #seven {
+    position: absolute;
+    position: relative;
+    left: -33vw;
+    top: -6vw;
+
+}
+
+#top-img #eight {
+    position: absolute;
+    /* position: relative; */
+    left: 38vw;
+    top: 1vw;
+}
+
+#top-img #nine {
+    position: absolute;
+    /* position: relative; */
+    left: 26vw;
+    top: 1.5vw;
+}
+
+#top-img #ten {
+    position: absolute;
+    /* position: relative; */
+    left: 56vw;
+    top: -1.5vw;
+}
+
+#top-img #elev {
+    position: absolute;
+    /* position: relative; */
+    left: 79vw;
+    top: 1vw;
+}
+
+#page3 #nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: -16vw;
+}
+
+#page3 #ctr {
+    position: relative;
+    width: 100%;
+    /* margin-left: auto; */
+}
+
+#page3 hr {
+    top: 2.5vw;
+}
+
+#ctr #body {
+    position: relative;
+    position: absolute;
+    left: 36vw;
+    top: 5vw;
+    z-index: 99999;
+}
+
+#ctr #handleft {
+    position: relative;
+    left: 44.2vw;
+    top: 1vw;
+    z-index: 99999999;
+
+}
+
+#ctr #handright {
+    position: relative;
+    left: 43.4vw;
+    top: 1vw;
+}
+
+#left #t {
+    width: 16vw;
+    text-align: left;
+    position: relative;
+    left: 21.2vw;
+    top: 6vw;
+    z-index: 9999;
+    rotate: -4deg;
+    /* font-family: bold; */
+}
+
+#left #t h1 {
+    font-family: bold;
+    margin-bottom: 5px;
+}
+
+#left #t p {
+    font-family: regular;
+    opacity: .8;
+}
+
+#left #timg {
+    left: 20vw;
+    top: -8vw;
+    position: relative;
+    rotate: -4deg;
+}
+
+#left #bimg {
+    left: 1.3vw;
+    top: 3.5vw;
+    position: relative;
+    rotate: 2deg;
+}
+
+#right #te {
+    width: 18vw;
+    position: relative;
+    position: absolute;
+    /* left: 15vw; */
+    right: 18vw;
+    margin-top: -420px;
+    /* margin-bottom: -515px; */
+}
+
+#right #te h1 {
+    font-family: bold;
+}
+
+#right #te p {
+    font-family: regular;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+#right #logo {
+    position: relative;
+    position: absolute;
+    right: 19vw;
+    margin-top: -300px;
+}
+
+#right h2 {
+    position: relative;
+    position: absolute;
+    right: 24vw;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: regular;
+    color: #83bf17;
+}
+
+#page4 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #414042;
+}
+
+#page4 #t {
+    display: flex;
+}
+
+.topimg img {
+    top: -3.9vw;
+    position: relative;
+    width: 130px;
+}
+
+#page4 #t1 {
+    display: flex;
+}
+
+.ctrimg img {
+    top: -6vw;
+    position: relative;
+}
+
+#page4 #t2 {
+    display: flex;
+}
+
+.btmimg img {
+    top: -10vw;
+    position: relative;
+}
+
+#page4 #nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: -6vw;
+    color: #fff;
+}
+#page4 #nav #n2 h3:hover {
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000;
+    transition: all ease-in-out 0.5s;
+}
+
+#page4 hr {
+    top: 2.5vw;
+}
+
+#page4 #l {
+    position: relative;
+    position: absolute;
+    left: 11vw;
+    top: 13vw;
+}
+
+#page4 #btm {
+    position: relative;
+    position: absolute;
+    left: 60vw;
+    top: 41vw;
+}
+
+#page4 #ltouch {
+    position: relative;
+    position: absolute;
+    left: 21vw;
+    top: 18vw;
+}
+
+#page4 #ctr {
+    width: 32%;
+    /* background-color: #83bf17; */
+    position: relative;
+    position: absolute;
+    left: 26vw;
+    top: 22vw;
+
+
+}
+
+#page4 #btm-envc {
+    position: relative;
+    margin-bottom: -4px;
+    z-index: 999999;
+
+}
+
+#page4 #ctr #btm-env {
+    position: relative;
+
+    z-index: 9999999;
+}
+
+#page4 #top-env {
+    position: relative;
+    position: absolute;
+    left: 1px;
+
+    top: -188px;
+}
+
+#page4 #letter {
+    position: relative;
+    position: absolute;
+    top: -100px;
+    left: 30px;
+    height: 287px;
+    width: 415px;
+}
+
+
+#page4 #letter:hover {
+    /* position: relative; */
+    position: absolute;
+    margin-top: -14%;
+    transition: all ease-out .8s;
+
+}
+
+#page4 button {
+    position: relative;
+    position: absolute;
+    top: 59px;
+    left: 190px;
+    z-index: 999999888;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    background-color: #83bf17;
+    /* position: fixed; */
+}
+
+#page4 button:hover {
+    background-color: #000;
+    transition: all ease-in-out 0.5s;
+}
+#page4 #ctr #text{
+    font-family: regular;
+    position: relative;
+    position: absolute;
+    top: -68px;
+    left: 90px;
+
+}
+#page4 #ctr #text #t{
+    margin-bottom: 15px;
+}
+
+#page4 #right {
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    position: relative;
+    /* background-color: #83bf17; */
+    left: 62.8%;
+    top: 22%;
+}
+
+#page4 #right #t {
+    height: 50%;
+    width: 100%;
+    /* background-color: #863131; */
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#page4 #right #t h3 {
+    position: relative;
+    /* left: 15px; */
+    font-family: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+    opacity: .5;
+
+}
+
+#page4 #right #t p {
+    position: relative;
+    /* left: 15px; */
+    font-family: regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.3;
+
+}
+
+#page4 #right #t #pt {
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#page4 #right #b {
+    height: 50%;
+    width: 100%;
+    /* background-color: #f53434; */
+}
+
+#page4 #right #b h3 {
+    position: relative;
+    /* left: 15px; */
+    font-family: bold;
+    font-size: 30px;
+    margin-bottom: 9px;
+    color: #fff;
+    opacity: .5;
+
+}
+
+#page4 #right #b i {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+    top: 5px;
+    position: relative;
+}
